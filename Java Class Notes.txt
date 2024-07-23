@@ -1,0 +1,1027 @@
+float: after decimal 7 digits. Size 32 bit (4 byte). 
+double: after decimal 15-16 digits. Size 64 bit (8 byte).
+
+
+1. What is the programming language?
+ -A set of instructions to deliver the compiler to perform a given task. It helps us to make the computer understand.
+
+2. How computer understand the programming language?
+-The computer reads a line then executes then again reads another line then executes.
+
+3. How many types of programming language?
+-Machine Language(low-level language: computer)
+-assembly Language(Human language)
+-High-level language (object oriented programming language)
+
+4. What is compiler?
+-The compiler translate source code into machine code(binary)
+
+5. What is the difference between Compile time error and Runtime error?
+
+-Compile time error: easy to fixed. 
+-Runtime error: cannot be fixed.
+
+
+Differences between Compile time and Runtime:
+-Compile Time: Source code is converted to machine code
+-Runtime: Machine code is executed by the computer
+
+
+Feature	                           Compile Time	                                           Runtime
+When it occurs	        During the development process	                        After successful compilation
+What happens	        Source code is translated into machine code	        Machine code is executed by the computer
+Focus	                Error checking, code optimization	                Program execution, interacting with resources
+Examples of Errors	Syntax errors (missing semicolon),
+                     semantic errors (incorrect variable usage)	                Division by zero, out-of-bounds array access
+
+
+
+
+6. What is Java?
+-Java is a high level object oriented programming language.
+
+7. What is Syntax?
+-It is the rules of the programming language.
+
+8. What is Variables?
+-It is a containers for storing data value and it has be to same type.
+ 
+9. Rules of variables?
+-it has number, letter, and two special character ($ and (_)underscore).
+-Start with alphabets not numbers.
+-whitespace is not allowed.
+-Cannot use keyword.
+-Case sensitive.
+
+9. Types of variables.
+-Local variable (within the method)
+-Global variable (outside the method)
+
+9.Types of Data-type.
+
+-Primitive: short, simple and pre-defined 
+-Non-primitive: long and complex. It cannot store any value of a variable directly it stores the address of variable.
+-String is not primitive data type it is a class. It is immutable(unchangeable)
+
+10. *Abstract *String *Enum *Array *interfaces *class.
+
+11. *What is void and return type?
+
+-Void: does not store any value
+-Return type: store value
+
+12. What is Methods?
+
+-It is a block of codes or collection of statements or a set of code grouped together to perform a task or operation.
+
+13. Why we use Methods?
+
+- To achieve the reusability of a code (can be use again and again) 
+
+-Method is executed only when we call or invoke it.
+
+14. Difference between Method call and Invoke?
+
+-Method call: when we call the method within the class.
+
+-Invoke: when we call the method outside the class by using reference variable.
+
+15.***** Instance Methods
+**Static Methods
+**Accessor Methods (Getters)
+**Mutator Methods (Setters)
+**Constructor Methods
+**Parameterized Methods
+**Varargs Methods
+**Recursive Methods
+**Abstract Methods
+**Final Methods
+
+16. What is Method declaration?
+
+-Access specifier :(public)
+-Return Type :(data types: int, String, double etc)
+-Method Name: (any name)
+-Parameter List: (declaration of data types)
+
+17. What is Method Signature?
+
+-Method signature: method name and parameter list.
+
+18. What is difference between parameter and arguments?
+
+- Parameter: (variables in the method signature. placeholder for the input values. Part of method definition).
+
+-Arguments: (actual value pass in the method while during method call).
+
+19. ***Recursion in Java
+
+20. Different types of typing systems.
+
+-Weak Typing: flexible and can be changed or modified. languages include JavaScript and PHP
+
+-Dynamically Typed: don't need to define the variable types and determine runtime. languages include Python and Ruby
+
+-Statically Typed: once we declared it cannot be changed. languages include Java, C, and C++.
+
+-Gradual Typing: combination of dynamic and static typed. Languages with gradual typing include TypeScript (for JavaScript) and Racket.
+
+***Java is called Statically typed / Strongly typed language.
+
+21. What is the difference between Print and Println?
+
+-Print: within one line.
+-Println: .next line
+
+22. Types of operators.
+
+-Unary Operator,
+-Arithmetic Operator,
+-Shift Operator,
+-Relational Operator,
+-Bitwise Operator,
+-Logical Operator,
+-Ternary Operator and
+-Assignment Operator.
+
+23. Java Control Statements
+
+-Decision Making statements:
+1. if/else statements : to check the condition whether its true or false.
+2. switch statement: are useful when you have a single expression that you want to compare against multiple possible values.
+
+-Loop statements:
+
+1. do while loop: It will execute once without checking the condition.
+
+2. while loop : when we don't know the size. It is organized and manageable. 
+
+3. for loop: When we know the size. Size is fixed.
+
+4. for-each loop: is used exclusively to loop elements in a Array. Syntax different.
+
+5. nested for loop: are used when you need to iterate over multiple arrays or collections of data.
+
+-Jump statements:
+1. break statement
+2. continue statement
+
+24. If/else statements: if statement is used to test the condition. It checks Boolean condition: true or false. There are various types of if statement in Java.
+
+-if statement
+-if-else statement
+-If-else-if ladder
+-nested if statement
+
+25. What is Array?
+
+-It is a collection of similar type of elements which has contiguous memory location (one after another).
+
+26. What is Java Array?
+
+-is an object which contains elements of a similar data type.
+-The elements of an array are stored in a contiguous memory location (one after another). 
+-It is a data structure where we store similar elements. 
+
+27. Different between Array and Variables:
+
+-Array: can store multiple values. Size is fixed. Index start with 0 . Example: int[3] array = {2, 5, 8};
+                  string[4] array = {John, Mike, Don, Gerry};
+
+Example: int array[] = new int[5] ;
+		
+		array[0]=  2;
+		array[1] = 6;
+		array[2] = 8;
+		array[3] = 10;
+		array[4] = 12;
+		
+		String num = Arrays.toString(array);
+		
+		System.out.println("Array values: "+ num);
+		System.out.println("Array Size: "+ array.length);
+
+
+-Variable: can store only one value.
+
+28. Advantages and Disadvantages of Java Arrays:
+
+-Advantage: Code Optimization and Random access.
+
+Code Optimization: array stores multiple values in one variable so data can be access quicker which improves the programs efficiency.
+
+Random access:get any data located at an index position.
+
+-Disadvantage: Size Limit
+
+Size Limit: store only the fixed size of elements in the array. It doesn't grow its size at runtime
+
+29. Types of array: There are two types of Array
+
+-Single Dimensional Array: 
+
+-Multidimensional Array: 
+
+
+30. What is Object-Oriented Programming?
+
+-Object-Oriented Programming is a methodology to design a program using classes and objects. 
+
+31. 4 pillars of Object-oriented Programming:
+
+-Inheritance
+-Polymorphism
+-Abstraction
+-Encapsulation
+
+32. What is object?
+
+-Object is a instance of a class.
+-Object contains an address and takes up some space in memory.
+
+33. What is class?
+
+-Class is a blue Print of a object.
+-It is a logical entity.
+-Class does not consume any space.
+
+34. What is Constructor?
+
+-constructor is a block of codes similar to the method
+-It is called when an Object(instance of the class) is created
+-Same name as class name.
+-its not return or void type.
+
+35. Types of Constructor
+
+There are two types of constructors in Java:
+-Default constructor (no-arg constructor)
+-Parameterized constructor
+
+36. what Parameterized Constructor?
+
+-A constructor which has a specific number of parameters is called a parameterized constructor.
+
+37. Why use the parameterized constructor?
+
+-The parameterized constructor is used to provide different values to distinct objects. However, you can provide the same values also.
+
+
+38. Difference between Java Constructor and Method.
+
+Java Constructor:
+
+-  is used to initialize the state of an object
+-  must not have a return type or void type
+-  is invoked implicitly(Global)
+-  The java compiler provides a default constructor if you don't have any constructor in a class.
+-  The constructor name must be same as class name.                    
+
+
+Java Method: 
+
+-Method is used to expose the behavior of an object.
+-must have a return type.
+-Method is invoked explicitly(customized)
+-Method is not provided by the compiler in any case.
+-May or may not be same as class name.
+
+
+OBJECT ORIENTED PROGRAMMING:
+
+1. Encapsulation: is a process of wrapping code and data together into a single unit. For example, a capsule which is mixed of several medicines.(Data hiding and abstraction)
+
+-All data members of the class are private
+-Now we can use setter and getter methods to set and get the data in it
+
+-Getter and setter methods in Java are widely used to access and manipulate the values of class fields. 
+
+-Usually, class fields are decorated with a private access specifier. 
+
+Getter: return the value.
+Setter: set or update the value.
+
+
+Advantage and Disadvantage of Getters and setters method (Encapsulation):
+
+-Advantage: Security(To protect data)
+
+-Disadvantage: Time consuming ,longer code, slower down the performance. 
+
+
+Java static keyword:
+
+-Used for memory management mainly. 
+-We can apply static keyword with variables, methods, blocks and nested classes. 
+-The static keyword belongs to the class than an object.
+
+The static can be used with:
+
+-Variable (also known as a class variable)
+-Method (also known as a class method)
+-Block
+-Nested class
+-import
+
+
+Java static variable:
+
+The static variable can be used to refer to the common property of all objects (which is not unique for each object), for example, the company name of employees, college name of students, etc.
+
+Advantages of static variable:
+It makes your program memory efficient (i.e., it saves memory).
+
+
+Java static method:
+
+If you apply static keyword with any method, it is known as static method.
+
+-A static method belongs to the class rather than the object of a class.
+
+-A static method can be invoked without creating an object.
+
+-A static method can access static data member and can change the value of it.
+
+
+2. Inheritance: is a mechanism in which one object acquires all the properties and behaviors of a parent object. 
+
+-It is an important part of OOPs.
+-Also known as a parent-child relationship.
+-We use "extends" keyword.
+
+Parent class: super-class
+Child class: sub-class
+
+Types of inheritance in java: 
+-Single
+-Multilevel  
+-Hierarchical
+
+***Multiple and hybrid inheritance are not possible.
+
+
+Super keyword:
+Usage of Java super Keyword
+-super can be used to refer immediate parent class instance variable.
+-super can be used to invoke immediate parent class method.
+-super() can be used to invoke immediate parent class constructor.
+
+
+Final keyword:
+The final keyword in java is used to restrict the user. The java final keyword can be used in many context. Final can be:
+
+-Final + variable → stops value change
+-Final + method → stops overriding	
+-Final + class → stops inheritance 
+
+-Final method is inherited but you cannot override it.
+-A final variable that is not initialized at the time of declaration is known as blank final variable.
+
+-Final(keyword) variable can be initialized only in constructor.
+-We cannot declare a Constructor final because a Constructor is not inherited. 
+
+
+3.Polymorphism (many forms): perform a single action in different ways.
+
+There are two types of polymorphism in Java: 
+
+-Compile-time polymorphism: overloading method (Same method name and parameter could be mix n match).
+
+Method Overloading: If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+
+There are two ways to overload the method:
+
+-By changing number of arguments
+-By changing the data type
+
+
+ 
+example: public void add(double a, double b) {
+		
+		System.out.println(a+b);
+    }
+    
+    public void add(String a, int b) {
+		
+		System.out.println(a+b);
+		
+    }
+
+
+-Runtime polymorphism: overriding method. 
+
+Method Overriding: If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+
+Usage of Java Method Overriding:
+-Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
+-Method overriding is used for runtime polymorphism
+
+Rules for Java Method Overriding:
+-The method must have the same method name as in the parent class
+-The method must have the same parameter as in the parent class.
+-There must be an IS-A (extends)relationship (inheritance).
+
+Example: //Java Program to illustrate the use of Java Method Overriding  
+
+//Creating a parent class.  
+class Vehicle{  
+  
+//defining a method  
+ void run(){System.out.println("Vehicle is running");}  
+
+}  
+//Creating a child class  
+class Bike2 extends Vehicle{  
+  
+//defining the same method as in the parent class  
+  void run(){System.out.println("Bike is running safely");}  
+
+
+
+** Operator Overloading is not supported in Java
+**In java, method overloading is not possible by changing the return type of the method only because of ambiguity
+
+class Adder{  
+
+public static int add(int a,int b){return a+b;}  
+
+public static double add(int a,int b){return a+b;}  
+
+}  
+class TestOverloading3{  
+
+public static void main(String[] args){  
+
+System.out.println(Adder.add(11,11));//ambiguity  
+
+}}  
+
+
+
+
+Early and late binding are two ways of resolving method calls in Java:
+
+1.Early binding (Compile time): also known as static binding (overloading method).
+
+2. Late binding (Run time): also known as dynamic binding. Overriding is a perfect example of dynamic binding. overriding both parent and child classes have the same method.
+
+Typecasting: when we cannot create object of the TakesScreenshot class then we use class name as a typecasting to let the driver know that is the object. 
+
+//Typecasting
+TakesScreenshot takescreenshot = (TakesScreenshot) driver; 
+
+
+Upcasting: If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
+
+class A (superclass)
+class B (subclass)
+
+A a = new B(); //Upcasting
+
+
+4. Abstraction: is a process of hiding the implementation details and showing only functionality to the user.
+
+For example: sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery.
+
+For interface class use implements not extends. only use Abstract method in that class.
+
+public void ca(); //Abstract method without body
+
+interface (superclass): for interface we cannot create objects. But we can create interface reference by Upcasting.
+
+Ways to achieve Abstraction:
+
+There are two ways to achieve abstraction in java
+-Abstract class (0 to 100%):Because it can have abstract and non abstract method. (support multilevel inheritance) 
+-Interface (100%): Because it can have only abstract method. (support multiple inheritance) 
+
+
+Abstract class in Java: A class which is declared as abstract is known as an abstract class. It can have abstract and non-abstract methods. It needs to be extended and its method implemented. It cannot be instantiated.
+
+Abstract class: The class which have at least one abstract method is called abstract class.
+
+Abstract method: its is a method without body.
+
+Example:
+public abstract class Calculator {
+
+	//Abstract class: The class which have at least one abstract method is called abstract class.
+	//Abstract method: its is a method without body.
+	
+	//Abstract method (without body)
+	abstract void display();
+	
+	//Concrete method.
+	public void add(int a, int b) {
+		
+		System.out.println(a+b);
+	}
+
+Points to Remember:
+-An abstract class must be declared with an abstract keyword.
+-It can have abstract and non-abstract methods.
+-It cannot be instantiated.
+-It can have constructors and static methods also.
+-It can have final methods which will force the subclass not to change the body of the method.
+
+***When we use final keyword for the method of superclass, can we access the superclass to subclass?
+
+Abstract Class:
+
+-Can have abstract methods (methods without a body) as well as concrete methods (methods with a body).
+-Can have instance variables.
+-Can provide some default functionality.
+-Can be extended by other classes using the extends keyword.
+-Supports method overriding.
+
+Interface:
+
+-Can only have abstract methods (methods without a body) and constants (variables with public static final modifiers).
+-Cannot have instance variables (prior to Java 8) or concrete methods (prior to Java 9).
+-Defines a contract for classes implementing it.
+-Can be implemented by classes using the implements keyword.
+-Supports multiple inheritance (a class can implement multiple interfaces).
+
+In summary, interfaces provide a way to achieve 100% abstraction (where all methods are abstract) and support multiple inheritance, whereas abstract classes can provide both abstraction and some implementation details, though they do not support multiple inheritance.
+
+Interface in Java: (example of interfaces are: WebDriver and WebElement).
+
+
+An interface: in Java is a blueprint/contract of a class. It has static constants and abstract methods.
+
+*****Difference between Interface and Class:
+Interface: works like remote control
+Class:  
+
+
+Access Modifier Table:
+
+Private < Default < Protected < Public
+
+Protected: is only accessible inside same package except child class which is outside of the package. In that case, we must use child class reference.
+
+Default: is only accessible inside same package.
+
+
+What is Java package?
+-is a group of similar types of classes, interfaces and sub-packages.
+
+Package in java can be categorized in two form, built-in package and user-defined package.
+
+
+Advantage of Java Package:
+
+1) Java package is used to categorize the classes and interfaces so that they can be easily maintained.
+2) Java package provides access protection.
+3) Java package removes naming collision.
+
+
+Java Exception Handling:The core advantage of exception handling is to maintain the normal flow of the application.
+
+--> Exception handling in Java is a mechanism that allows you to handle runtime errors or exceptional situations that may occur during the execution of a program. 
+
+--> When an exceptional situation occurs, an object of the Exception class or one of its subclasses is created and thrown. 
+
+--> If this exception is not caught and handled properly, it will terminate the normal flow of the program and print an error message on the console.
+
+Suppose there are 10 statements in a Java program and an exception occurs at statement 5; the rest of the code will not be executed, i.e., statements 6 to 10 will not be executed. However, when we perform exception handling, the rest of the statements will be executed. That is why we use exception handling in Java.
+
+Exceptions that we faced while running codes are:
+
+-No such element found
+-null pointer exception
+-Class Not Found exception
+-Index out of boundary exception
+-Intercepted exception
+-File Not Found Exception
+-Socket Exception
+
+
+Difference between Checked and Unchecked Exceptions
+
+1. Checked Exception:
+The classes that directly inherit the Throwable class except RuntimeException and Error are known as checked exceptions. For example, IOException, SQLException, etc. Checked exceptions are checked at compile-time.
+
+2. Unchecked Exception:
+The classes that inherit the RuntimeException are known as unchecked exceptions. For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, etc. Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
+
+3. Error:
+Error is irrecoverable. Some example of errors are OutOfMemoryError, VirtualMachineError, AssertionError etc.
+
+
+Exception handling in Java is typically done using five keywords:
+
+try: The try block contains the code that might throw an exception. This code is placed inside the try block.
+
+catch: The catch block is used to handle the exceptions thrown by the code in the try block. When an exception is thrown, the catch block that matches the type of the exception is executed. You can have multiple catch blocks to handle different types of exceptions.
+
+finally: The finally block is optional and contains code that will be executed regardless of whether an exception was thrown or not. This block is typically used for cleanup operations, such as closing files or releasing resources.
+
+throw: The throw keyword is used to explicitly throw an exception. This is useful when you want to create your own custom exceptions or when you want to throw an exception based on certain conditions.
+
+throws: The throws keyword is used in a method signature to declare the types of checked exceptions that the method may throw. This is required for checked exceptions because the compiler needs to know which exceptions might be thrown so that it can enforce proper exception handling.
+
+*****If the application programmer handles the exception, the normal flow of the application is maintained, i.e., rest of the code is executed.
+
+
+Collection:
+
+What is Collection?
+If we want to represent a group of individual objects as a single entity then we should go for Collection.
+
+What is Collection Framework?
+It defines several classes and interfaces which can be used to define a group of objects as single entity.
+
+An array is an indexed Collection of fixed number of homogeneous data elements.
+The Main advantage of Arrays is we can represent multiple values with a single variable.
+So that reusability of the code will be improved.
+
+Limitations of Object type Arrays:
+Arrays are fixed in size i.e. once we created an array with some size there is no chance of increasing or decreasing its size based on our requirement. Hence to use arrays we should know the size in advance which may not possible always.
+
+Arrays can hold only homogeneous data elements.
+Ex:-
+Student []s =  new Student [10000];
+s[0] = new Student; (correct)
+s[1] = new Customer(); (wrong)
+
+But We can resolve this problem by using object Arrays.
+
+Object[] obj = new Object [10000];
+obj [0] = new Student();
+obj [1] = new Customer();
+
+Arrays Concept is not implemented based on some standard data structure hence readymade method support is not available.
+For every requirement we have to write the code explicitly. Which is complexity of programing. 
+
+
+To overcome the above limitations of Arrays we should go for Collections.
+
+-->Collections are growable in nature. i.e. Based on our requirement we can increase (or) Decrease the size.
+
+-->Collections can hold both homogeneous & Heterogeneous elements.
+
+-->Every Collection class is implemented based on some standard data structure. Hence readymade method support is available for every requirement. Being a programmer we have to use this method and we are not responsible to provide
+implementation.
+
+
+Difference between Collection & Collections
+
+Collection is an interface which can be used to represent a group of individual objects as a single entity.
+
+Collections is an utility class present in java.util.package to define several utility methods (like Sorting, Searching..) for Collection objects.
+
+
+Key Interfaces of Collection Framework:
+
+1. Collection :
+
+-->If we want to represent a group of individual objects as a single entity then we should go for Collection.
+
+-->Collection interface defines the most common methods which are applicable for any Collection object.
+
+-->In general collection interface is considered as root interface of Collection Framework.
+
+Note: there is no concrete class which implements collection interface directly.
+
+2. List:
+
+-->List is child interface of Collection.
+
+-->If we want to represent a group of individual objects as a single entity where duplicates are allowed and insertion order
+preserved then we should go for List.
+
+
+3. Set :
+
+-->It is the child interface of Collection.
+
+-->If we want to represent a group of individual objects as a single entity where duplicates are not allowed and insertion order not preserved then we should go for Set.
+
+4. Sorted Set :
+
+-->It is the child interface of Set.
+
+-->If we want to represent a group of individual objects as a single entity where duplicates are not allowed , insertion order is not preserved but all objects should be inserted according to some sorting order then we should go for SortedSet.
+
+
+5.  NavigableSet:
+
+-->It is the child interface of Sorted Set 
+-->It defines several methods for navigation purposes.
+
+
+6. Queue:
+
+-->It is child interface of Collection.
+
+-->If we want to represent a group of individual objects prior to processing then we should go for Queue.
+
+
+Ex: before sending a mail all mail id's we have to store somewhere and in which order we saved in the same order mail's should be delivered (First in First out) for this requirement Queue concept is the best choice.
+
+
+7. Map:
+
+-->Map is not the child interface of Collection.
+
+-->If we want to represent a group of individual objects as key-value pairs then should go for Map.
+
+Ex: Roll No Name
+101 →	Lamia
+102 →	Sudipto
+103 →	Abir
+104 →	Sudipto
+
+Both key and value are objects, duplicated keys are not allowed but values can be duplicated.
+
+
+ArrayList:
+
+-->The underlined data structure Resizable Array or Growable Array
+
+-->Duplicates are allowed.
+
+-->Insertion order is preserved.
+
+-->Heterogeneous objects are allowed [except TreeSet & TreeMap everywhere heterogeneous objects are allowed].
+Null insertion is possible.
+
+ArrayList Constructors:
+1. ArrayList al = new ArrayList();
+2. ArrayList al = new ArrayList(int initialCapacity);
+3. ArrayList al = new ArrayList(Collection c);
+
+
+import java.util.*;
+
+public class ArrayListDemo {
+    public static void main(String[] args) {
+        ArrayList<Object> l1 = new ArrayList<>();
+        l1.add("A");
+        l1.add(10);
+        l1.add("A");
+        l1.add(null);
+        
+        System.out.println(l1); // [A, 10, A, null]
+        
+        l.remove(2);
+        l.add("A");
+        
+        System.out.println(l1); // [A, 10, null, A]
+        
+        ArrayList<Object> I2 = new ArrayList<>(l1);
+               
+        l2.add("M");
+        l2.add(null);
+        l2.add("N");
+        
+        System.out.println(l2); // [A, 10, null, A, M, null, N]
+    }
+}
+
+ArrayList:
+
+-->ArrayList and Vector classes implements RandomAccess
+interface so that we can access any Random element with the same speed.
+
+-->Hence if our frequent operation is retrieval operation  then ArrayList is the best choice.
+
+
+LinkedList:
+
+-->The underlying data structure is Double Linked List.
+
+-->Insertion order is preserved.
+
+-->Duplicates are allowed.
+
+-->Heterogeneous Objects are allowed.
+
+-->Null insertion is possible.
+
+-->Linked List is the best choice if our requirement is insertion and deletion in the middle.
+
+***Worst choice if our frequent operation is retrieval of data.
+
+-->Usually we can use LinkedList to implement stacks and queues to provide support for this requirement Linked List class defines following specific methods.
+
+void addFirst();
+void addLast();
+Object getFirst();
+Object getLast();
+Object removeFirst();
+Object removeLast();
+
+
+LinkedList Constructors:
+
+LinkedList l1=new LinkedList();
+Creates an empty LinkedList Object
+
+LinkedList l2=new LinkedList(Collection c);
+Creates an equivalent LinkedList Object for the given Collection
+
+import java.util.*;
+
+public class LinkedListDemo {
+    public static void main(String[] args) {
+        LinkedList<Object> l = new LinkedList<>();
+        l.add("deb");
+        l.add(30);
+        l.add(null);
+        l.add("deb");
+        l.set(0, "Software");
+        l.add(0, "hardware");
+        l.addFirst("ccc");
+        System.out.println(l);     }
+}
+
+
+***Difference between Arraylist and LinkedList
+
+
+HashSet:
+
+-->The underlying data structure is Hashtable.
+
+-->Duplicates are not allowed. If we are trying to insert duplicates, we won't get any compile time or runtime errors. add() method simply returns false.
+
+-->Insertion order is not preserved and all objects will be inserted based on  hash-code of objects.
+
+-->Heterogeneous objects are allowed. 
+Null insertion is possible.
+
+-->Implements Serializable and Clonable interfaces but not RandomAccess.
+
+-->HashSet is the best choice, if our frequent operation is Search operation.
+
+
+Constructors of HashSet:
+
+HashSet h = new HashSet();
+- Creates an empty HashSet object with default initial capacity 16
+& default Fill Retio 0.75
+
+HashSet h = new HashSet(int initalCapacity);
+- Creates an empty HashSet object with specified initial capacity
+& default Fill Retio 0.75
+
+HashSet h = new HashSet(int initalCapacity, float loadFactor);
+- Creates an empty HashSet object with specified initial capacity
+& specified Load Factor (or Fill Ratio)
+
+HashSet h = new HashSet(Collection c);
+- For inter conversion between Collection objects.
+
+
+Constructors of HashSet:
+
+Property:
+Underlying Data Structure
+Insertion Order
+Introduced In
+
+HashSet:
+Hash table
+Not preserved
+Version 1.2
+
+LinkedHashSet
+Hash table + Linked List
+Preserved
+Version 1.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+	 
+
+
